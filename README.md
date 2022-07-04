@@ -7,6 +7,11 @@
 # Index
 - <a href="#pre">Preparing the installation</a>
 - <a href="#dnw">Download all the Dwm packages</a>
+- <a href="#pak">Install the necessary packages</a>
+- <a href="#conf">Configure Dwm, St and dwm-bar</a>
+- <a href="#lastc">Make the last configurations</a>
+- <a href="#start">Enter in the new enviroment</a>
+
 
 <a name="pre"></a>
 # Preparing the installation
@@ -39,6 +44,7 @@ Now you are going to enter in the 3 new folders and run the next command:
 sudo make clean install
 ```
 
+<a name="pak"></a>
 # Install the necessary packages
 Install the necessary packages. Nitrogen will set our wallpaper, starship modifies the terminal prompt, fish is a terminal emulator, compmgr will help us with the terminal transparency, base-devel is necesary to install the AUR helper and xrandr will help us to adjust the screen resolution:
 ```bash
@@ -61,6 +67,7 @@ cd
 git clone https://github.com/joestandring/dwm-bar.git
 ```
 
+<a name="conf"></a>
 # Configure dwm, st and dwm-bar:
 Before we enter in the new enviroment, we can replace the default config files with the ones that are available in this repository. First dwm:
 ```bash
@@ -87,7 +94,7 @@ cp -r dwm/dwm-bar/bar-functions/dwm_resources.sh ~/dwm-bar/bar-functions
 ```
 You can always add functions in the dwm_bar.sh file. Visit the official Github repo to see more.
 
-
+<a name="lastc"></a>
 # Make the last configurations
 Once you installed the basic packages, we are going to copy the .xinitrc file:
 ```bash
@@ -110,6 +117,7 @@ Finally copy the Ubuntu Nerd Fonts:
 cp -r dwm/.local/share/fonts/U* ~/.local/share/fonts
 ```
 
+<a name="start"></a>
 # Enter in Dwm
 Unless I've forgotten something, that should be all the configuration. So then, we are ready to start dwm:
 ```
