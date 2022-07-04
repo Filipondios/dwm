@@ -39,14 +39,88 @@ Now you are going to enter in the 3 new folders and run the next command:
 sudo make clean install
 ```
 
-# Configure dwm and st:
-Before we enter in the new enviroment, we can replace the default config files with the ones that are available in this repository:
+# Install the necessary packages
+Install the necessary packages. Nitrogen will set our wallpaper, starship modifies the terminal prompt, fish is a terminal emulator, compmgr will help us with the terminal transparency, base-devel is necesary to install the AUR helper and xrandr will help us to adjust the screen resolution:
 ```bash
+sudo pacman -S nitrogen starship fish compmgr base-devel xrandr
+```
 
+Install the AUR helper if you dont have it, and the last package.
+```bash
+cd /opt
+sudo git clone https://aur.archlinux.org/yay-git.git
+sudo chown -R yourusername:users ./yay
+cd yay
+makepkg -si
+yay -S transset-df # will help us with the terminal transparency too
+```
+
+Install dwm-bar
+```bash
+cd 
+git clone https://github.com/joestandring/dwm-bar.git
+```
+
+# Configure dwm, st and dwm-bar:
+Before we enter in the new enviroment, we can replace the default config files with the ones that are available in this repository. First dwm:
+```bash
+cd
+cp -r dwm/.config/dwm/config.h ~/.config/dwm6.2/config.h #Change 6.2 to your dwm version
+cp -r dwm/.config/dwm/dwm.c ~/.config/dwm6.2/dwm.c #Change 6.2 to your dwm version
+```
+Now the St terminal:
+```bash
+cp -r dwm/.config/st/config.h ~/.config/st6.2/config.h #Change 6.2 to your dwm version
+```
+
+Again, you are going to enter in your dwm and st folders and run the next command:
+```bash
+sudo make clean install
+```
+
+Copy my dwm-bar configs:
+```bash
+cd
+cp -r dwm/dwm-bar/dwm_bar.sh ~/dwm-bar/dwm_bar.sh
+cp -r dwm/dwm-bar/bar-functions/dwm_date.sh ~/dwm-bar/bar-functions
+cp -r dwm/dwm-bar/bar-functions/dwm_resources.sh ~/dwm-bar/bar-functions
+```
+You can always add functions in the dwm_bar.sh file. Visit the official Github repo to see more.
+
+
+# Make the last configurations
+Once you installed the basic packages, we are going to copy the .xinitrc file:
+```bash
+sudo cp dwm/.xinitrc  ~
+```
+You must edit this file with your preferences. For example, change the setxkbmap to your language or adjust the resolution of your screen with xrandr.
+
+Now, copy the .bashrc file from this repo and copy it in your user's home directory:
+```bash
+cp -r dwm/.bashrc  ~
+```
+
+Now, copy the starship config file:
+```bash
+cp -r dwm/.config/starship.toml
+```
+
+Finally copy the Ubuntu Nerd Fonts:
+```
+cp -r dwm/.local/share/fonts/U* ~/.local/share/fonts
 ```
 
 # Enter in Dwm
-Onece you installed the basic packages, we are going to edit the .xinitrc file:
-```bash
-echo "exec dwm"
+Unless I've forgotten something, that should be all the configuration. So then, we are ready to start dwm:
 ```
+sudo reboot
+startx
+```
+
+There are some keybandigs modified that are:
+<pre>
+Mod + F = Firefox
+Mod + Enter = Terminal
+Mod + m = dmenu
+</pre>
+Be aware that the Mod key is the Windows one. You can change it by looking in the oficial dwm site.
