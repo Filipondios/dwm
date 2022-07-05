@@ -1,4 +1,4 @@
-# Filipondios Theme
+# Default Theme
 This theme is the default dwm theme that is available in the repository. If you changed the theme and you just want to switch back, follow the steps bellow. 
 
 ![imagen](https://user-images.githubusercontent.com/91225771/177217238-6834a696-3089-412f-be61-f0cf5bca8709.png)
