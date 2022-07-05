@@ -12,6 +12,9 @@
 - <a href="#lastc">Make the last configurations</a>
 - <a href="#start">Enter in the new enviroment</a>
 
+# Other links you may want to see
+- My custom Themes
+
 
 <a name="pre"></a>
 # Preparing the installation
