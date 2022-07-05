@@ -14,7 +14,8 @@
 
 # Other links you may want to see
 - My custom Themes
-
+  - <a href="https://github.com/Filipondios/dwm/blob/main/.themes/Default.md">Default Theme</a>
+  - <a href="https://github.com/Filipondios/dwm/blob/main/.themes/Arch-Derivates.md">Arch Theme</a>
 
 <a name="pre"></a>
 # Preparing the installation
