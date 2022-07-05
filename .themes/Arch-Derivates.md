@@ -1,7 +1,7 @@
-# Filipondios Theme
+# Arch Theme
 This theme is based in the Arch-Linux colors. For making it, I picked them from the various Arch websites, like the Wiki, forums etc. To switch to this theme, follow the steps indicated bellow. 
 
-![imagen](https://user-images.githubusercontent.com/91225771/177217238-6834a696-3089-412f-be61-f0cf5bca8709.png)
+![imagen](https://user-images.githubusercontent.com/91225771/177427320-d1c70edc-8c4f-4dfb-bda1-8ea516b4eb96.png)
 
 # Dwm Theme 
 First we have to go to the dwm folder, where all the custom data is located and modify the config.h file. Then, change the next lines:
