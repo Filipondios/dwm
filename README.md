@@ -17,6 +17,7 @@
   - <a href="https://github.com/Filipondios/dwm/blob/main/.themes/Default.md">Default Theme</a>
   - <a href="https://github.com/Filipondios/dwm/blob/main/.themes/Arch-Derivates.md">Arch Theme</a>
   - <a href="https://github.com/Filipondios/dwm/blob/main/.themes/Debian.md">Debian Theme</a>
+  - <a href="https://github.com/Filipondios/dwm/blob/main/.themes/Outlaw%20Theme.md">Mental Outlaw Theme - Gentoo</a>
 
 <a name="pre"></a>
 # Preparing the installation
