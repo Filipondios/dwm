@@ -8,3 +8,6 @@
 
 ## <a href="https://github.com/Filipondios/dwm/blob/main/.themes/Debian.md">DEBIAN THEME</a>
 ![imagen](https://user-images.githubusercontent.com/91225771/177655572-4fe69d51-b6a9-45da-83f6-d30258f78718.png)
+
+## <a href="https://github.com/Filipondios/dwm/blob/main/.themes/Outlaw%20Theme.md">MENTAL OUTLAW THEME</a>
+![imagen](https://user-images.githubusercontent.com/91225771/177769492-06f47114-3b0e-463a-8450-af25c70574fd.png)
