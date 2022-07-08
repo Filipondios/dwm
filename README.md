@@ -16,6 +16,7 @@
 - <a href="https://github.com/Filipondios/dwm/tree/main/.themes">My custom Themes</a>
   - <a href="https://github.com/Filipondios/dwm/blob/main/.themes/Default.md">Default Theme</a>
   - <a href="https://github.com/Filipondios/dwm/blob/main/.themes/Arch-Derivates.md">Arch Theme</a>
+  - <a href="https://github.com/Filipondios/dwm/blob/main/.themes/Black%26White.md">Black & White Theme</a>
   - <a href="https://github.com/Filipondios/dwm/blob/main/.themes/Debian.md">Debian Theme</a>
   - <a href="https://github.com/Filipondios/dwm/blob/main/.themes/Outlaw%20Theme.md">Mental Outlaw Theme - Gentoo</a>
 
